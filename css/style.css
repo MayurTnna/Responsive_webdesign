@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.custom-btn {
+  color: #00bdfe !important;
+  border: 2px solid #00bdfe !important;
+  border-radius: 20px !important;
+  padding: 10px;
+  background: transparent;
+}
+
+nav .toggle {
+  border: none;
+}
+nav .toggle:focus {
+  outline: 1px none;
+  box-shadow: none;
+}
+nav .custom-nav {
+  background-color: #00bdfe !important;
+}
+@media screen and (max-width: 992px) {
+  nav .custom-nav {
+    background-color: transparent !important;
+    text-align: center;
+  }
+  nav .custom-nav .nav-link.active {
+    color: #00bdfe !important;
+  }
+  nav .custom-btn {
+    text-align: center !important;
+  }
+}
+nav .dropdown-menu {
+  border: none !important;
+  background-color: transparent;
+}
+
+.section-1 {
+  background-image: url("/assets/images/image-4.jpg");
+  background-size: cover;
+}
+.section-1 .banner-text {
+  color: #fff !important;
+  padding-top: 260px;
+  font-size: 60px;
+}
+.section-1 .banner-text .banner-text-focus {
+  color: #00bdfe;
+}
+.section-1 p {
+  color: #fff;
+}
+.section-1 .banner-btn-container {
+  padding: 160px 0px;
+}
+.section-1 .banner-btn-container .banner-btn-1 {
+  color: #fff;
+  background: transparent;
+  border: 1px solid;
+  padding: 10px;
+  font-size: 20px;
+}
+.section-1 .banner-btn-container .banner-btn-2 {
+  color: #fff;
+  background: transparent;
+  padding: 10px;
+  font-size: 16px;
+}
+.section-1 .cards {
+  margin-top: -100px;
+}
+.section-1 .cards .left-arrow {
+  padding: 10px 14px !important;
+  border-radius: 50% !important;
+}
+.section-1 .cards .right-arrow {
+  padding: 10px 14px !important;
+  border-radius: 50% !important;
+}
+.section-1 .cards .card {
+  border: none !important;
+  border-color: none !important;
+}
+
+.section-2 {
+  margin-top: 200px;
+}
+.section-2 .btn-discover {
+  background-color: #00bdfe;
+  color: #fff !important;
+}/*# sourceMappingURL=style.css.map */

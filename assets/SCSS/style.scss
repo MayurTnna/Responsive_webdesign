@@ -1,0 +1,104 @@
+$primary : #00bdfe;
+$secondary : #fff;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.custom-btn {
+    color:$primary !important;
+    border: 2px solid $primary !important;
+    border-radius: 20px !important;
+    padding: 10px;
+    background: transparent;
+}
+
+nav{
+    .toggle{
+        border: none;
+        &:focus { 
+            outline: 1px none;
+            box-shadow: none;
+        }
+    }
+    .custom-nav{
+        background-color: $primary !important;
+    }
+    @media screen and (max-width: 992px) {
+       .custom-nav{
+        background-color: transparent !important;
+        text-align: center;
+        .nav-link.active{
+            color: $primary !important;
+        }
+       }
+       .custom-btn {
+        text-align: center !important;
+       }
+
+    }
+    .dropdown-menu{
+        border: none !important;
+        // text-align: center;
+        background-color: transparent;
+    }
+}
+
+.section-1{
+    background-image: url("/assets/images/image-4.jpg");
+    background-size: cover;
+    .banner-text{
+        color: $secondary !important;
+        padding-top: 260px;
+        font-size: 60px;        
+        .banner-text-focus{
+            color:$primary;
+        }
+    }
+    p{
+        color: $secondary;
+    }
+    .banner-btn-container{
+        padding: 160px 0px;
+
+        .banner-btn-1{
+            color:$secondary;
+            background: transparent;
+            border: 1px solid;
+            padding: 10px;
+            font-size: 20px;     
+        }
+        .banner-btn-2{
+            color:$secondary;
+            background: transparent;
+            padding: 10px;
+            font-size: 16px;     
+        }
+    }
+    .cards{
+        margin-top: -100px;
+        .left-arrow{
+            padding: 10px 14px !important;
+            border-radius: 50% !important;
+        }
+        .right-arrow{
+            padding: 10px 14px !important;
+            border-radius: 50% !important;
+        }
+        .card{
+            border: none !important;
+            border-color: none !important;
+        }
+    }
+}
+
+.section-2{
+    margin-top: 200px;
+
+    .btn-discover{
+        background-color: $primary;
+        color: $secondary !important;
+    }
+}
